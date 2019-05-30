@@ -10,7 +10,6 @@ public class BattleShips{
     private boolean s1 = false, s2 = false;
     
     
-    private Coord c1 = new Coord(), c2 = new Coord();;
     
     public BattleShips(){
             generateShips();
@@ -156,10 +155,7 @@ public class BattleShips{
         new BattleShips();
     }
     
-    class Coord{
-        int x;
-        int y;
-    }
+
 
     
 }
